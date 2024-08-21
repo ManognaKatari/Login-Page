@@ -1,0 +1,13 @@
+{
+  "homepage": "https://ManognaKatari.github.io/Login-Page",
+  "dependencies": {
+    "react-icons": "^5.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
+}
+}
